@@ -16,7 +16,6 @@ public class LojaDomain implements Serializable{
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private id;
 
-
     @Column(name="nome")
     private nome;
 
